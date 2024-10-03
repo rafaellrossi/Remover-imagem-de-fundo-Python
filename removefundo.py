@@ -1,5 +1,7 @@
-import sys, os, rembg
 from PIL import Image
+import sys
+import os
+import rembg
 
 img = Image.open(sys.argv[1])
 sem_fundo = rembg.remove(img)
